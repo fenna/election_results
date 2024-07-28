@@ -22,17 +22,18 @@ Modify the district variable in the main section of the script to match the name
 ```{python}
 if __name__ == '__main__':
     # Change this to the desired district
-    district = 'Veendam'
+    district = 'Oldambt'
     df = load_data(district)
     create_map(df)
 ```
 
 Run the script to generate an HTML file with the map. 
-After running the script with `district = 'Veendam'`, it will generate an HTML file `Veendam.html` with an interactive map showing the election results.
+After running the script with `district = 'Oldambt'`, it will generate an HTML file `Oldambt.html` with an interactive map showing the election results.
 
 ## viewing the map
 To view the generated map, open the html file in a web browser. 
 The map will display circle markers for each postcode with the election result numbers. Click on the circle to view the information.
+![Alt text](Oldambt.png)
 
 
 
