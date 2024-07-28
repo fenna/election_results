@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_33ba5139719f53375879a7b27392030f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_33ba5139719f53375879a7b27392030f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_33ba5139719f53375879a7b27392030f = L.map(
+                "map_33ba5139719f53375879a7b27392030f",
+                {
+                    center: [53.09990089175191, 6.870326021368507],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76d696f1985a47421e3ff2a1b8c5cdba = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_76d696f1985a47421e3ff2a1b8c5cdba.addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+            var circle_marker_ff5af356f3c406770cac76729332ebdd = L.circleMarker(
+                [53.1123635, 6.8839204],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.363636364, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_600cdce110bdb52333905e08c640bb84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565befffa92e4127ec3804bd8ab5aa62 = $(`<div id="html_565befffa92e4127ec3804bd8ab5aa62" style="width: 100.0%; height: 100.0%;">Postcode: 9645 EN SP-stem: 5.7%</div>`)[0];
+                popup_600cdce110bdb52333905e08c640bb84.setContent(html_565befffa92e4127ec3804bd8ab5aa62);
+            
+        
+
+        circle_marker_ff5af356f3c406770cac76729332ebdd.bindPopup(popup_600cdce110bdb52333905e08c640bb84)
+        ;
+
+        
+    
+    
+            var circle_marker_1ab372395a20af00fa49b7b5cef7b6bb = L.circleMarker(
+                [53.099119509210524, 6.869843728947369],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.483960948, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_58c54566576337a378f6058bd60e6392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96dbb5309e2a15db0ed3d92691131e45 = $(`<div id="html_96dbb5309e2a15db0ed3d92691131e45" style="width: 100.0%; height: 100.0%;">Postcode: 9641 LK SP-stem: 4.7%</div>`)[0];
+                popup_58c54566576337a378f6058bd60e6392.setContent(html_96dbb5309e2a15db0ed3d92691131e45);
+            
+        
+
+        circle_marker_1ab372395a20af00fa49b7b5cef7b6bb.bindPopup(popup_58c54566576337a378f6058bd60e6392)
+        ;
+
+        
+    
+    
+            var circle_marker_961403a3cb73cd07e66c8c48d4bc455f = L.circleMarker(
+                [53.087220737037036, 6.860932781481482],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.238776838, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_b4bc7fe62470e46af4329e0b410268ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfd41a253bde7443b188469ebaa2a8ae = $(`<div id="html_dfd41a253bde7443b188469ebaa2a8ae" style="width: 100.0%; height: 100.0%;">Postcode: 9648 AA SP-stem: 4.6%</div>`)[0];
+                popup_b4bc7fe62470e46af4329e0b410268ea.setContent(html_dfd41a253bde7443b188469ebaa2a8ae);
+            
+        
+
+        circle_marker_961403a3cb73cd07e66c8c48d4bc455f.bindPopup(popup_b4bc7fe62470e46af4329e0b410268ea)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ecf49be85fb4c2d94ea8b8a1c1f4cc = L.circleMarker(
+                [53.10507068333333, 6.827241166666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.849557522, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_9cfdb6a2bd80e3a202b53c04ef924058 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccfcd69c9fd714f613324c5b952dec26 = $(`<div id="html_ccfcd69c9fd714f613324c5b952dec26" style="width: 100.0%; height: 100.0%;">Postcode: 9631 TN SP-stem: 4.4%</div>`)[0];
+                popup_9cfdb6a2bd80e3a202b53c04ef924058.setContent(html_ccfcd69c9fd714f613324c5b952dec26);
+            
+        
+
+        circle_marker_b0ecf49be85fb4c2d94ea8b8a1c1f4cc.bindPopup(popup_9cfdb6a2bd80e3a202b53c04ef924058)
+        ;
+
+        
+    
+    
+            var circle_marker_bb4b9150c3d867bfaf78525988bc6576 = L.circleMarker(
+                [53.104576575, 6.87803415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.847736626, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_cafe29078fc9428b7267e130fe7db26a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdbf1701676813827f41f992b367748a = $(`<div id="html_cdbf1701676813827f41f992b367748a" style="width: 100.0%; height: 100.0%;">Postcode: 9641 AW SP-stem: 4.4%</div>`)[0];
+                popup_cafe29078fc9428b7267e130fe7db26a.setContent(html_cdbf1701676813827f41f992b367748a);
+            
+        
+
+        circle_marker_bb4b9150c3d867bfaf78525988bc6576.bindPopup(popup_cafe29078fc9428b7267e130fe7db26a)
+        ;
+
+        
+    
+    
+            var circle_marker_d548c9d6857030cf252fad9dd5c1e3f8 = L.circleMarker(
+                [53.10693334358974, 6.876562641025641],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.29015544, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_34188df8d2f028006bc4b8422f4bfd6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4361c66ca4dc9ac5ff53a2754629423 = $(`<div id="html_a4361c66ca4dc9ac5ff53a2754629423" style="width: 100.0%; height: 100.0%;">Postcode: 9641 AD SP-stem: 4.1%</div>`)[0];
+                popup_34188df8d2f028006bc4b8422f4bfd6b.setContent(html_a4361c66ca4dc9ac5ff53a2754629423);
+            
+        
+
+        circle_marker_d548c9d6857030cf252fad9dd5c1e3f8.bindPopup(popup_34188df8d2f028006bc4b8422f4bfd6b)
+        ;
+
+        
+    
+    
+            var circle_marker_fe691ff0b33b1a51f0b1b56fd3e4bada = L.circleMarker(
+                [53.10388004, 6.8666823400000006],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.813953488, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_5a5be763ced219fb1e2849e299f80ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a330a3d1a6762fa4d0935007d20b2e26 = $(`<div id="html_a330a3d1a6762fa4d0935007d20b2e26" style="width: 100.0%; height: 100.0%;">Postcode: 9641 PJ SP-stem: 3.9%</div>`)[0];
+                popup_5a5be763ced219fb1e2849e299f80ca4.setContent(html_a330a3d1a6762fa4d0935007d20b2e26);
+            
+        
+
+        circle_marker_fe691ff0b33b1a51f0b1b56fd3e4bada.bindPopup(popup_5a5be763ced219fb1e2849e299f80ca4)
+        ;
+
+        
+    
+    
+            var circle_marker_d26f8c10e789cb5b87d62c332dd94f70 = L.circleMarker(
+                [53.07764526315789, 6.8605949684210525],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.633587786, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_423b919adaf6d5249eff7b9827d68c7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf2c2661eab1b1a7fca1eb7613852d4a = $(`<div id="html_bf2c2661eab1b1a7fca1eb7613852d4a" style="width: 100.0%; height: 100.0%;">Postcode: 9648 CV SP-stem: 3.8%</div>`)[0];
+                popup_423b919adaf6d5249eff7b9827d68c7a.setContent(html_bf2c2661eab1b1a7fca1eb7613852d4a);
+            
+        
+
+        circle_marker_d26f8c10e789cb5b87d62c332dd94f70.bindPopup(popup_423b919adaf6d5249eff7b9827d68c7a)
+        ;
+
+        
+    
+    
+            var circle_marker_8c4effde0f152af4a23fb157f2cb4b48 = L.circleMarker(
+                [53.09137399285714, 6.905138557142856],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.086614174, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_225bd1ed22eada6d5384009161f8aeb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_220837f45a37d0a3f954c512aa36d86d = $(`<div id="html_220837f45a37d0a3f954c512aa36d86d" style="width: 100.0%; height: 100.0%;">Postcode: 9644 VL SP-stem: 3.5%</div>`)[0];
+                popup_225bd1ed22eada6d5384009161f8aeb3.setContent(html_220837f45a37d0a3f954c512aa36d86d);
+            
+        
+
+        circle_marker_8c4effde0f152af4a23fb157f2cb4b48.bindPopup(popup_225bd1ed22eada6d5384009161f8aeb3)
+        ;
+
+        
+    
+    
+            var circle_marker_6b035f7704b89bb5fc7f1a5d312ed64e = L.circleMarker(
+                [53.11082527333333, 6.87430948],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.376344086, "stroke": true, "weight": 3}
+            ).addTo(map_33ba5139719f53375879a7b27392030f);
+        
+    
+        var popup_65f09d6aa973a32f614739d39ce257b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c05d3543028b86d21099fe5d5cc35f03 = $(`<div id="html_c05d3543028b86d21099fe5d5cc35f03" style="width: 100.0%; height: 100.0%;">Postcode: 9645 AR SP-stem: 2.7%</div>`)[0];
+                popup_65f09d6aa973a32f614739d39ce257b6.setContent(html_c05d3543028b86d21099fe5d5cc35f03);
+            
+        
+
+        circle_marker_6b035f7704b89bb5fc7f1a5d312ed64e.bindPopup(popup_65f09d6aa973a32f614739d39ce257b6)
+        ;
+
+        
+    
+</script>
+</html>
