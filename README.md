@@ -30,4 +30,10 @@ if __name__ == '__main__':
 Run the script to generate an HTML file with the map. 
 After running the script with `district = 'Veendam'`, it will generate an HTML file `Veendam.html` with an interactive map showing the election results.
 
+## Viewing the Map
+To view the generated map, open the html file in a web browser. 
+The map will display circle markers for each postcode with the election result numbers. Click on the circle to view the information.
+[HTML file](Veendam.html)
+
+
 
