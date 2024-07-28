@@ -33,7 +33,9 @@ After running the script with `district = 'Veendam'`, it will generate an HTML f
 ## Viewing the Map
 To view the generated map, open the html file in a web browser. 
 The map will display circle markers for each postcode with the election result numbers. Click on the circle to view the information.
+
 <iframe src="Veendam.html" width="100%" height="500px">
+  <p>Your browser does not support iframes.</p>
 </iframe>
 
 
