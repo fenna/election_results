@@ -1,4 +1,4 @@
-# election results visualization
+# Election results % SP voters visualization
 
 ## installation
 To use this project, you need to have Python installed along with the following libraries:
