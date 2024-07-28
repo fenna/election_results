@@ -33,7 +33,7 @@ After running the script with `district = 'Oldambt'`, it will generate an HTML f
 ## viewing the map
 To view the generated map, open the html file in a web browser. 
 The map will display circle markers for each postcode with the election result numbers. Click on the circle to view the information.
-![Alt text](Oldambt.png)
+![oldambt map](oldambt.png)
 
 
 
